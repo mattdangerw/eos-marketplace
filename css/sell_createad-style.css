@@ -1,39 +1,40 @@
 iframe{
 	width:710px;
 	height:612px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 table{
-	margin-top: 50px;
+	vertical-align: center;
+	text-align: center;
+
+	margin-right:auto;
+	margin-left:auto;
+
+	color:white;
+	font-weight:900; 
 }
 
 #container { 
     border:0px solid #000; 
-    background-image:url("../images/bg-home_sell.jpg"); 
-
-    height: 612px;
-    width: 710px;
-
     font-style: Verdana, Arial, Helvetica, sans-serif;
     font-size:16px;
 }
 
 
-#left-table {
-	margin-right: auto;
-	margin-left:auto;
+#sidecol{
+	width:40%;
+	text-align: center;
 }
 
 
 #mid-table {
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left:auto;
+
+
 }
  
 #right-table {
-	float:right;
-	margin-top: 10px;
-	margin-right: 20px;
 
 }

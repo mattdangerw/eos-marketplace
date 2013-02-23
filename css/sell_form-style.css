@@ -1,7 +1,13 @@
+html{
+	font-family:Tahoma;
+
+}
+
 table {
 	font-family:sans-serif;
 	border-collapse:collapse;
 }
+
 
 td {
 	padding:10px;
@@ -16,13 +22,21 @@ textarea{
 	resize: none
 	}
 
+#price{
+	width:320px;
+	height:20px;
+	resize:none;
+}
 
 
- #container { 
+#container { 
     border:0px solid #000; 
     background-image:url("../images/ad-container.png"); 
     height: 612px;
     width: 710px;
+
+    font-style: Verdana, Arial, Helvetica, sans-serif;
+    font-size:16px;
 }
 
 #table-left {
@@ -36,9 +50,9 @@ textarea{
 
 }
  
- 
  .label-name {
  	float:left;
+ 	color:rgb(200,200,200);
  }
 
 

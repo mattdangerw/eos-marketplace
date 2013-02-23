@@ -1,36 +1,58 @@
+html{
+	font-family:Tahoma;
+
+}
+
 table {
 	font-family:sans-serif;
 	border-collapse:collapse;
 }
 
 
-  #container { 
+td {
+	padding:10px;
+	text-align: center;
+	vertical-align:middle;
+	border-spacing: 5px 5px;
+}
+
+textarea{
+	width:320px;
+	height:70px;
+	resize: none
+	}
+
+#price{
+	width:320px;
+	height:20px;
+	resize:none;
+}
+
+
+#container { 
     border:0px solid #000; 
-    background-color:#FFF; 
     background-image:url("../images/ad-container.png"); 
     height: 612px;
     width: 710px;
+
+    font-style: Verdana, Arial, Helvetica, sans-serif;
+    font-size:16px;
 }
 
 #table-left {
-	margin-left: 9px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+ 
+#table-right {
+	margin-top: 10px;
+	margin-right: 20px;
 
 }
  
  .label-name {
  	float:left;
+ 	color:rgb(200,200,200);
  }
 
- .big-text-input {
- 	width:426px;
- 	height:81px;
- }
-
-td {
-	padding:10px;
-	text-align: center;
-	width: 200px;
-	vertical-align:middle;
-	border-spacing: 50px 50px;
-}
 

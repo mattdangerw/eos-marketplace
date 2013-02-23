@@ -1,0 +1,54 @@
+img {
+	width:50%;
+}
+
+#sellpic {
+	float:left;
+	margin:0px;
+}
+
+#buypic {
+	float:right;
+}
+
+p {
+	font-size:30px;
+	font-family:Tahoma;
+	color:white;
+	}
+
+span.big {
+	font-size:100px;
+	
+}
+
+#selltext {
+	position:absolute;
+	width:50%;
+	top:200px;
+	text-align:center;
+	}
+	
+#buytext {
+	position:absolute;
+	width:50%;
+	top:200px;
+	right:0px;
+	text-align:center;
+	}
+	
+/*#selltext {
+	height:30px;
+	width:30px;
+	color:red;
+	}*/
+
+.text {
+	font-size:30px;
+	}
+	
+#big {
+	font-size:40px;
+	}
+
+

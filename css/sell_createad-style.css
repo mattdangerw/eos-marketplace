@@ -15,7 +15,7 @@ table{
 
 	color:white;
 	font-weight:900; 
-}
+}2
 
 #container { 
     border:0px solid #000; 
@@ -25,8 +25,11 @@ table{
 
 
 #sidecol{
-	width:40%;
 	text-align: center;
+}
+
+#sidecol2{
+	text-align: right;
 }
 
 

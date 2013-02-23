@@ -24,7 +24,13 @@ textarea{
 
 #price{
 	width:320px;
-	height:20px;
+	height:40px;
+	resize:none;
+}
+
+#location{
+	width:200px;
+	height:40px;
 	resize:none;
 }
 

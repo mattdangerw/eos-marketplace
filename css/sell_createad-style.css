@@ -6,6 +6,18 @@ iframe{
 	margin-left: auto;
 }
 
+body {
+  background:none transparent;
+}
+
+html { 
+	background: url(../images/bg-home_sell.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 table{
 	vertical-align: center;
 	text-align: center;
@@ -13,9 +25,8 @@ table{
 	margin-right:auto;
 	margin-left:auto;
 
-	color:white;
 	font-weight:900; 
-}2
+}
 
 #container { 
     border:0px solid #000; 

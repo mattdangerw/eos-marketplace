@@ -3,6 +3,36 @@
 <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type"text/css" href="../css/buy.css"></link>
 <body>
+	<div id="modal-outer">
+		<div id="modal">
+			<table id="listing-table" border="0">
+				<td id="listing-left">
+					<div id="listing-padder">
+						<p id="listing-price">$<b>76,000</b></p>
+						<p id="listing-title">This bike is a bike</p>
+						<img src ="../images/bike3.jpg"></img>
+						<p id="listing-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</td>
+				<td id="listing-right">
+					<div id="listing-padder">
+						<p id="listing-label">Category:</p>
+						<p id="listing-body">Sports</p>
+						<br>
+						<p id="listing-label">Location:</p>
+						<p id="listing-body">Via Apia, Rocinha</p>
+						<br>
+						<br>
+						<br>
+						<iframe width="320" height="240" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rocinha,+Rio+de+Janeiro+-+Rio+de+Janeiro,+Brazil&amp;aq=0&amp;oq=rocinha+r&amp;sll=37.0625,-95.677068&amp;sspn=60.158465,135.263672&amp;t=k&amp;ie=UTF8&amp;hq=&amp;hnear=Rocinha,+Rio+de+Janeiro,+Brazil&amp;ll=-22.989212,-43.24841&amp;spn=0.003951,0.006416&amp;z=16&amp;output=embed"></iframe>
+						<br>
+						<a id="google-link" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rocinha,+Rio+de+Janeiro+-+Rio+de+Janeiro,+Brazil&amp;aq=0&amp;oq=rocinha+r&amp;sll=37.0625,-95.677068&amp;sspn=60.158465,135.263672&amp;t=k&amp;ie=UTF8&amp;hq=&amp;hnear=Rocinha,+Rio+de+Janeiro,+Brazil&amp;ll=-22.989212,-43.24841&amp;spn=0.003951,0.006416&amp;z=16">View On Google Maps&rarr;</a>
+					</div>
+				</td>	
+			</table>
+			<a href="#close" title="Close">Close</a>
+		</div>
+	</div>
 	<table id="main-table" border="0">
 		<td id="left-sidebar">
 			<div class="toolbar-option">
@@ -341,6 +371,9 @@ $('#container').imagesLoaded(function() {
     // options
     itemSelector : '.item',
   });
+});
+$(".item").click(function() {
+	document.location.href="#modal-outer";
 });
 </script>
 </html>

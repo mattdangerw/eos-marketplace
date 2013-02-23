@@ -1,7 +1,63 @@
-.item {
+#left-sidebar{
+  width:200px;
+  height:100%;
+}
+
+html {
+  font-family:Tahoma;
+  width:100%;
+  height:100%;
+}
+
+body {
+  width:inherit;
+  height:inherit;
+}
+
+#main-table {
+  width:inherit;
+  height:inherit;
+}
+
+.toolbar-option {
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  margin-left:30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.toolbar-option:hover {
+  opacity: 1;
+}
+
+.option-text {
+  transition: color 0.75s ease-in;
+  -moz-transition: color 0.75s ease-in;
+  -webkit-transition: color 0.75s ease-in;
+  color:rgb(60, 60, 60);
+}
+
+.price-number {
+  transition: color 0.75s ease-in;
+  -moz-transition: color 0.75s ease-in;
+  -webkit-transition: color 0.75s ease-in;
+  color:rgb(190, 190, 190);
+}
+
+#scrolled-area {
+  overflow-y: auto;
+  height:100%;
+  width:100%;
+}
+
+ .item {
+  transition: background-color 0.75s ease-in;
+  -moz-transition: background-color 0.75s ease-in;
+  -webkit-transition: background-color 0.75s ease-in;
   overflow: hidden;
-  max-width:100%;
-  max-height:100%;
   width: 200px;
   float: left;
   margin: 10px;
@@ -12,7 +68,26 @@
   box-shadow: 1px 2px 5px 0px rgba(100, 100, 100, 55);
 }
 
+.item:hover {
+  background-color: rgb(247, 148, 29);
+}
+
+.item:hover .price-text {
+  color: white;
+}
+
+.item:hover .body-text {
+  color: white;
+}
+
+.item:hover .price-number {
+  color: white;
+}
+
 .price-text {
+  transition: color 0.75s;
+  -moz-transition: color 0.75s;
+  -webkit-transition: color 0.75s;
   color:rgb(212,207,201);
   margin-top:2px;
   margin-left:4px;
@@ -21,10 +96,21 @@
   font-weight: 300;
 }
 
+.price-number {
+  transition: color 0.75s;
+  -moz-transition: color 0.75s;
+  -webkit-transition: color 0.75s;
+  color:rgb(190, 190, 190);
+}
+
 .body-text {
+  transition: color 0.75s;
+  -moz-transition: color 0.75s;
+  -webkit-transition: color 0.75s;
   color:rgb(212,207,201);
   margin-left:4px;
   margin-right:4px;
+  margin-bottom:4px;
   font-size: 20px;
   line-height: 1.2em;
   font-weight: 300;
